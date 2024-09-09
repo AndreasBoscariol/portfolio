@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkdashboard=self.webpackChunkdashboard||[]).push([[263],{263:(s,e,d)=>{d.r(e),d.d(e,{default:()=>c});d(43);var n=d(579);const c=()=>(0,n.jsx)("div",{children:(0,n.jsxs)("div",{className:"content",children:[(0,n.jsx)("h1",{children:"\ud83d\udea7 Under Construction \ud83d\udea7"}),(0,n.jsx)("p",{children:"Come back soon."})]})})}}]);
+//# sourceMappingURL=263.d7a3b92f.chunk.js.map
