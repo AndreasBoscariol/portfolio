@@ -1,0 +1,121 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #000;
+  color: #ffffff;
+  padding: 10px;
+  z-index: 10000; /* Ensure the navbar is on top */
+  position: relative;
+}
+
+.navbar-left,
+.navbar-center,
+.navbar-right {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-center .navbar-item,
+.terminal-popup-item .abbreviation {
+  background-color: #3d1017;
+  border: 1px solid #db3b55;
+  color: #db3b55;
+  padding: 5px 10px;
+  border-radius: 5px;
+  margin: 0 5px;
+  font-size: 12px;
+  cursor: pointer;
+}
+
+.navbar-item-container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.navbar-popup {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #892637;
+  color: #1c1c1c;
+  padding: 5px 10px;
+  border-radius: 5px;
+  margin-top: 10px;
+  white-space: nowrap;
+  z-index: 10001; /* Ensure the popup is above everything else */
+  font-size: 13px;
+}
+
+.navbar-item-container:hover .navbar-popup {
+  display: block;
+}
+
+.terminal-popup {
+  position: absolute;
+  top: 50px; /* Adjust as needed */
+  left: 0;
+  background-color: #000;
+  color: white;
+  padding: 10px;
+  z-index: 10001; /* Ensure the popup is above everything else */
+  width: 200px;
+}
+
+.terminal-popup-item {
+  display: flex;
+  align-items: center;
+  padding: 5px 0;
+}
+
+.terminal-popup-item .pinned {
+  border: 1px solid #892637;
+}
+
+.terminal-popup-item:hover {
+  border-radius: 4px;
+  background-color: #1c1c1c;
+}
+
+.terminal-input {
+  width: 150px;
+  padding: 5px;
+  margin-left: 10px;
+  background-color: #1c1c1c;
+  color: white;
+  border: 1px solid #892637;
+  border-radius: 4px;
+  font-family: monospace;
+}
+
+.highlighted {
+  background-color: #1c1c1c;
+  color: #892637;
+}
+
+.button {
+  background-color: #2b2b2b;
+  color: white;
+  padding: 5px 10px;
+  border: 1px solid white;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.button:hover {
+  border: 1px solid #327a5a;
+  color: #327a5a;
+}
+
+img {
+  width: 50px;
+  height: auto;
+  margin-right: 10px;
+}
+.no-underline {
+  text-decoration: none;
+}
